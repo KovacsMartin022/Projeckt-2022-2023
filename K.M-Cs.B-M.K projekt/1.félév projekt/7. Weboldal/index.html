@@ -4,21 +4,42 @@
 	<title>Kerttervező.Kft</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="bootstrap.css" type="text/css">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	  	<link href="styles.css" rel="stylesheet" href="bootstrap.css" type="text/css">
+	
 </head>
-<body style="background-color:powderblue;">
-<h1 style="text-align:center;">Kerttervező.Kft</h1>
+<body>
+<h1 id="0"style="text-align:center;">Kerttervező.Kft</h1>
 <h2 href="fooldal">Üdvözöljük a Kerttervező.Kft weboldalán!</h2>
 <p>Ez a weboldal segíti önt abba, hogy hogyan is, és miből is valósítsa meg a kertjét úgy, hogy még a költségekről is lesz szó.</p>
-<button type="fooldal" class="btn btn-fooldal" id="fooldal">Főoldal</button>
-<button type="1" class="btn btn-1" id="1">Gyalog- és kocsiutak tervezése</button>
-<button type="2" class="btn btn-2" id="2">Pihenőhelyek tervezése</button>
-<button type="3" class="btn btn-3" id="3">Burkolóanyagok kerti utak és pihenőhelyek számára</button>
-<button type="4" class="btn btn-4" id="4">A költségek becslése</button>
-<br>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="#0">Főoldal</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#1">Gyalog- és kocsiutak tervezése</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#2">Pihenőhelyek tervezése</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#3">Burkolóanyagok kerti utak és pihenőhelyek számára</a>
+		</li> 
+		<li class="nav-item">
+			<a class="nav-link" href="#4">A költségk becslése</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./jatek_CsB.py" download class="download-btn">Unatkozó kollégáinknak</a>
+				<i class="fa fa-download"></i>
+		</li> 
+		<li class="nav-item">
+			<a class="nav-link" href="">Zene az élvezetért</a>
+		</li> 
+		</ul>
+	</div>  
+</nav>
+
 <h3 id="1" style="background-color:blue;">Gyalog- és kocsiutak tervezése</h3>
 	<i>
 		<p>Jól megtervezett utainkon biztos lépésekkel és tiszta lábbal juthatunk A pontból B pontba.
@@ -27,9 +48,6 @@
 	</i>
 <img src="ives_ut.jpg" alt="Íves út" title="Az ívesen vezetett utak kellemes látványt nyújtanak, sétára hívnak." style="float:right" width="400px" height="200px">
 <style>
-img {
-	padding: 10px;
-}
 </style>
 <img src="egyenes_ut.jpg" alt="Egyenes út" title="Az egyenes utak elválasztják, elhatárolják az egyes ágyásokat egymástól." style="float:right" width="330px" height="200px">
 	<p>A szilárd burkolatú utak fő feladata, hogy összekössék a kerten keresztül az utcát a házzal, a kert különböző részeit,
@@ -64,9 +82,9 @@ img {
 		<p>Még a legkisebb kertben is szükségünk van olyan helyekre, ahol pihenhetünk, kikapcsolódhatunk, ünnepelhetünk, álmodozhatunk és néha még dolgozhatunk is,
 		hogy az év minden szakában élvezni tudjuk a kert nyújtotta előnyöket.</p>
 	</i>
-<img src="pihenohely_1.jpg" alt="Pihenőhely_1" title="A ház homlokzata és a terasz anyaga egységes. A falat egyik oldalról a ház homlokzata, a másikon a kert többi részétől elválasztó növényzet adja." style="float:right" width="450px" height="250px">
-<img src="pihenohely_2.jpg" alt="Pihenőhely_2" title="Növények mint elhatároló egységek. A sövény hullámos nyesése kilátást enged a völgy irányába." style="float:right" width="250px" height="250px">
-<img src="pihenohely_3.jpg" alt="Pihenőhely_3" title="A háztól távolabb kiképzett oihenőhely. A napernyő egyfajta mobil tető." style="float:right" width="450px" height="250px">
+<img src="pihenohely_1.jpg" alt="Pihenőhely_1" title="A ház homlokzata és a terasz anyaga egységes. A falat egyik oldalról a ház homlokzata, a másikon a kert többi részétől elválasztó növényzet adja." style="float:right" width="400px" height="200px">
+<img src="pihenohely_2.jpg" alt="Pihenőhely_2" title="Növények mint elhatároló egységek. A sövény hullámos nyesése kilátást enged a völgy irányába." style="float:right" width="200px" height="200px">
+<img src="pihenohely_3.jpg" alt="Pihenőhely_3" title="A háztól távolabb kiképzett pihenőhely. A napernyő egyfajta mobil tető." style="float:right" width="400px" height="200px">
 	<p>A pihenőhely nemcsak sík felület, hanem térbeli egység is, amely ha minden oldalról nyitott, nem biztos, hogy ideális.
 	Valamilyen védelemnek lennie kell, mert az biztonságérzetet ad, és az esetleges erős szél ellen is véd. 
 	Egy szorosan  a ház mellé telepített pihenőhelyen a ház fala, egy épületsarok, magas falak, sűrű léckerítés, betekintés ellen védő sövény vagy virágrács, lugas ezért nagyon fontos elem. 
@@ -77,7 +95,7 @@ img {
 	<p>TETŐ: Gyakran adottak bizonyos építészeti elemek-például erkélyek, ereszek-, amelyek az alájuk telepített pihenőhelynek védelmet adnak az időjárási viszontalanságok ellen.
 	Ha bármilyen ok miatt nem tudunk állandó fedelet építeni az ülőrész fölé, a mobil eszközök-markízok, napernyők, sátorponyvák-is megteszik.
 	Természetesen ide kell sorolnunk az olyan transzparens elemeket is, mint amilyenek a virágrácsok, lugasok, magas fák koronája.</p>
-<img src="kerti_butorok.jpg" alt="Pihenőhely_3" style="float:left" width="370px" height="370px">
+<img src="kerti_butorok.jpg" alt="Pihenőhely_3" style="float:left" width="500px" height="500px">
 	<strong>2. lépés: Előkészületek</strong>
 	<i>
 		<p><b>1. Pihenőhelyek közvetlenűl a ház mellett.</b> A közvetlenül a ház kertkijárata mellé épített pihenőhely a leggyakoribb megoldás; független a kert nagyságától.
@@ -134,7 +152,7 @@ img {
 		és a kertben megfelelő helyeket kiszemeltük, még el kell döntenünk, hogy milyen burkolatot fogunk használni.</p>
 	
 	</i>
-<img src="granit.jpg" alt="gránit" style="float:right" title="Természetes kőlapok gránitból. A méterre vágott lapok lehetővé teszik a keskeny fugákkal való lerakást." width="620px" height="300px">
+<img src="granit.jpg" alt="gránit" style="float:right" title="Természetes kőlapok gránitból. A méterre vágott lapok lehetővé teszik a keskeny fugákkal való lerakást." width="480px" height="200px">
 	<p>Már az ötletek felvetése során is fontos szerepet szánunk a burkolóanyagokkal kapcsolatos ismereteknek, most azonban konkretizálni kell az elképzeléseket.
 	Az eddigi tervezés szintjén külön kezelt két témánk, az utak és a pihenőhelyek, most megint együtt tárgyalható, mert mindkettőhöz elvben ugyanazokat az anyagokat használhatjuk.
 	Azonban az utak és pihenőhelyek alapfunkciói eltérőek, ezért a végső döntést a különböző feltételeknek megfelelően kell meghoznunk.
@@ -153,9 +171,9 @@ img {
 	A mészkő szürkés, esetleg kékes, néha sárgás árnyalatú, a travertin többnyire sárgásbarna. Mindkettő ellenáll a hideg időjárásnak.
 	A homokkő színe a világossárgától a sárgászöldön és barnásvörösön keresztül a szürkéig terjed. Hogy mennyire málik a homokkő, az a kötőanyagától függ.
 	A legtartósabbak a szilikát kötőanyag-tartalmú homokkövek. Az erősen porózus homokkövek télen a nagyobb vízfelvétel miatt ki vannak téve a szétfagyás veszélyének.</p>
-<img src="gneisz.jpg" alt="gneisz" style="float:right" title="Gneiszből vágott természetes kőlapok, hasított durva felülettel. A négyszögletesre vágott lapok természetesnek tünnek." width="250px" height="250px">
-<img src="betonlapok.jpg" alt="betonlapok" style="float:right" title="A betonlapokat különböző színekben és méretekben készítik. A felszínbe dolgozott természetes kőzuzalékból álló színes réteg miatt a beton már föl sem ismerhető." width="250px" height="250px">	
-<img src="homokko.jpg" alt="homokkő" style="float:right" title="Homokkőből vágott szabálytalan alakú természetes kőlapok. A felszínük síkra vágott." width="350px" height="250px">	
+<img src="gneisz.jpg" alt="gneisz" style="float:right" title="Gneiszből vágott természetes kőlapok, hasított durva felülettel. A négyszögletesre vágott lapok természetesnek tünnek." width="200px" height="200px">
+<img src="betonlapok.jpg" alt="betonlapok" style="float:right" title="A betonlapokat különböző színekben és méretekben készítik. A felszínbe dolgozott természetes kőzuzalékból álló színes réteg miatt a beton már föl sem ismerhető." width="200px" height="200px">	
+<img src="homokko.jpg" alt="homokkő" style="float:right" title="Homokkőből vágott szabálytalan alakú természetes kőlapok. A felszínük síkra vágott." width="300px" height="200px">	
 	<p>A <b>természetes kőlapokat</b> simára fűrészelik vagy durván sík felületűre pattintják.
 	A kereskedelemben négyszögletesre, egyenes szélűre vagy szabálytalan alakúra (ennek neve poligonális) vágva kaphatóak.
 	A szabályos alakúak lehetnek készre vágottak 30-80 cm élmérettel, vagy úgy nevezett szallagban árusítják őket; ez utóbbiak szélessége állandó, a lapok hossza azonban változó.
@@ -171,8 +189,8 @@ img {
 	Ez utobbiak többnyire kétrétegű lapok, amelyek járófelületére legalább 1 cm vastag nemes réteget préseltek.
 	etáltal az összes természetes kő színe beállítható, a jó tapadóképességet kőzuzalékkal érik el.
 	Kimosásokkal vagy érdesítő eljárásokkal a felszín később még alakítható.</p>
-<img src="fajarda.jpg" alt="fajárda" style="float:right" title="Rusztikus fajárda, gömbfából." width="230px" height="300px">
-<img src="pazsitracsos_betonlapok.jpeg" alt="pázsitrácsos betonlapok" style="float:right" title="Pázsitrácsos betonlapok kis földkaamrákkal; gyalogos és járműforgalomra egyformán jól megfelel ez a megoldás." width="370px" height="300px">
+<img src="fajarda.jpg" alt="fajárda" style="float:right" title="Rusztikus fajárda, gömbfából." width="130px" height="200px">
+<img src="pazsitracsos_betonlapok.jpeg" alt="pázsitrácsos betonlapok" style="float:right" title="Pázsitrácsos betonlapok kis földkaamrákkal; gyalogos és járműforgalomra egyformán jól megfelel ez a megoldás." width="270px" height="200px">
 	<p>A <b>faburkolatok</b> anyaga négyzet vagy téglalap alakra vágott, többnyire azonban kereknek meghagyott, általában 10-15 cm magasra és 8-30 cm átmérőre vágott hasábfa.
 	A fát alaposan impergálni kell használat előtt. Mivel a fa korong alakú vágásfelülete, a bütü van felül, látszik a fa erezete. Általában tölgyet és erdei fenyőt használnak faanyagként.
 	Az impregnálás után a fa általában barnás vagy zöldes lesz. A tartósság azonban a kémiai impregnálás ellenére is korlátozott.
@@ -205,7 +223,7 @@ img {
 	<i>Lágy, vizet áteresztő burkolatok</i>
 	<p>Ezeknél az anyagoknál egyáltalán nem számít az utak előre eltervezett volta: itt minden lehetséges!
 	A kezeléssel járó munka ugyan - mindenek előtt pázsit esetén - több, ezt azonban egyensúlyozza az olcsó előállítás.</p>
-<img src="fakereg_ut.jpg" alt="fakéreg út" style="float:left" title="A fakéreg burkolat puha, kellemesen rugalmas burkolatot ad. Sajnos, folyamatosan humusszá alakúl a szabadban." width="400px" height="280px">
+<img src="fakereg_ut.jpg" alt="fakéreg út" style="float:left" title="A fakéreg burkolat puha, kellemesen rugalmas burkolatot ad. Sajnos, folyamatosan humusszá alakúl a szabadban." width="320px" height="200px">
 	<p>A <b>pázsit</b> az egyetlen járható vegetációs ferület. Ennek előfeltétele a nem túl laza talaj, amit megfelelő drénezéssel (alagcsövezéssel) is el tudunk érni.
 	A rendszeres és gyakori kaszálással a füvek töve rövid és sűrű lesz, így jobban bírja a terhelést.
 	Ha a talaj laza és képlékeny, megoldásként a kőpázsit, a dúrvább kőzúzalék belekeverése kínálkozik.
@@ -229,6 +247,7 @@ img {
 		<p>Mindenki, aki valamit építeni akar, előre szeretné tudni, mibe fog az egész kerülni.
 		Csak így lehet mérlegelni, hogy milyen anyagok, megoldások jöhetnek számításba, és mi az, ami túl drága.</p>
 	</i>
+<img src="mennyisegek_becslese.jpg" alt="Mennyiségek becslése" style="float:right" width="200px" height="200px">
 	<p>Miután a helyi körülményeknek és az igényeknek megfelelő tervet kidolgozunk, már biztos alappal rendelkezünk ahhoz, hogy az előállítási költségeket megbízhatóan ki tudjuk számolni.
 	Miután az utakhoz és a pihenőhelyekhez gyakorlatilag ugyanazokat az anyagokat használjuk, a költségeket egyformán számolhatjuk mindkettőre.
 	Első lépésként a mennyiségeket kell meghatároznunk. Ehhez a felületek alakját, méreteit leolvashatjuk a tervrajzról. Ha a burkolatokat szegélyeznünk kell, azt folyóméterben (fm) számoljuk.
@@ -247,5 +266,28 @@ img {
 		<p>Teljesen függetlenül attól, hogy a munkánkat magunk végezzük, vagy válalkozónak adjuk ki, meg kell különböztetnünk állandó és változó költségeket.
 		Ezen kívül még számolni kell a technikából következő költségekkel is.</p>
 	</i>
+	<p>Az <b>állandó költségek</b> tartalmazzák az összes munka költségét, amelyet a burkolóréteg felhordásáig el kell végezni, és amelyek függetlenek a későbbi burkolattól.
+	Ezek kizárólag az út használhatósága miatt szükségesek.
+	Ide tartoznak a szükséges földmunkák, mint a talaj kiépítése, planírozása (kiegyengetése), a talaj tömörítése, és természetesen a föld elszállítása.
+	A kavicsból vagy kőzúzalékból készűlt hordozóréteg költségei is természetesen ide, az állandó költségek rovatába tartoznak.
+	A hordozóréteget természetesen a későbbi terhelésnek és a talajviszonyoknak megfelelően kell elkészíteni:
+	általában 20-25 cm a gyalogutak és 30-35 cm a személygépkocsikkal járt utak alá, agyagos talajon. 
+	Ezen semmit sem lehet megtakarítani, mert minden az út stabilizálását, tartósságát csökkentené.
+	A válalkozói árak növekszenek ott, ahol a terep nehéz, a megközelítés nehéz, sok kézi munkát ígényel a tereprendezés stb.</p>
+<img src="szegelyerositesek.jpg" alt="Vázlat a szegélyerősítések árkalkulációjához" style="float:right" width="650px" height="350px">
+	<p>A <b>változó költségek</b> a kiválasztott burkolóanyagoktól és az építési költségekből tevődnek össze.
+	Egy alapos, a funkciót is figyelembe vevő költség-eredmény-használhatóság alapú számításban az esztétikai szempontok is fontos szerepet játszanak:
+	Mit akarok elérni? Mi tetszik nekem igazán? Mi marad a leghosszabb ideig szép és mutatós?
+	Ezek mind teljesen egyéni elvárások, meghatározások.</p>
+	<p>A következő áttekintést adó táblázatban összefoglaltam a legfontosabb munkák és anyagok költségeit, amelyek természetesen helyenként nagy eltéréseket mutathatnak.</p>
+	<p>A <b>műszaki ígények szerint meghatározott költségek</b> akkor merülnek fel, ha a felhasznált burkolatot adó anagokhoz járulékos munkák is szükségesek, például a szegélyek megerősítése.
+	Ez kisebb téglaburkolatok esetén lehet szükséges, ha a szélső kövek szétcsúszását meg akarjuk akadályozni.
+	A kavics-, kőzúzalék vagy fakéreg borítás esetén a szegély csak akkor fontos, ha pontos útszegélyt akarunk. Ennek hiányában a növényzet túlságosan belenő a szórt felületre.</p>
+	<p>Természetesen mint minden építkezésnél, most is kell valamennyi tartalékot félretenni, mert mindig vannak járulékos költségek.
+	Ha az utak és pihenőhelyek elkészültek, a környező zöldterületeket rendbe kell hozni, sokszor egészen fel kell újítani, az építésből visszamaradt anyagokat, törmeléket el kell távolítani.
+	Ezzel a három részre osztott vázlattal (földmunka, hordozóréteg/burkolat/szegély) az anyag- és fuvarköltségek  is számolhatók, ha valaki saját maga akarja a munkákat elvégezni.
+	Ezáltal az egész lényegesen olcsóbb lesz, de hosszas, hajlott háttal végzendő munkák, a nehéz terhek emelése miatt erre csak az válalkozzon, akinek izmai, ínszallagjai egészségesek.</p>
+	<p>Gondoljuk tehát nyugodtan végig, mi az, amit megtudunk (és akarunk) csinálni, és mi az, ami túl nehéznek tűnik.</p>
+	
 </body>
 </html>
